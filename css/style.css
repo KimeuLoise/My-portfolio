@@ -4,7 +4,7 @@
 }
 
 .banner{
-    background-image: url(images/banner.jpg);
+    background-image: url(kimeu_n.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -13,3 +13,81 @@
     justify-content:center ;
     align-items: center;
 }
+.banner 
+    h1{ font-size: 50px; 
+    padding: 5px;
+}
+.banner a{ 
+    color: whitesmoke; 
+    text-decoration: none; 
+    font-size: 18px; 
+    padding: 10px 20px;
+}
+.banner a:hover{ 
+    color: rebeccapurple;
+}
+.navbar{ 
+    display: 
+    flex; 
+    justify-content: flex-end; 
+    margin: 10px;
+}
+.navbar a{ 
+    padding: 10px;
+}
+button{
+    color: whitesmoke; 
+    font-family: monospace; 
+    font-weight: 500; 
+    font-size: 16px; 
+    padding: 10px 15px; 
+    background-color:rebeccapurple; 
+    border: none; 
+    border-radius: 50px; 
+    cursor: pointer;
+}
+button:hover{
+    color: #000000; 
+    background-color: white;
+}
+body{ 
+    color: whitesmoke; 
+    background-color: #df07fc;
+}
+h1,h4,h5{ 
+    font-family: monospace;
+}
+#section1{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: 
+    center; padding: 50px;
+}
+#section1>h2,h4,p{ 
+    padding: 5px;
+}
+#body-section>h2{ 
+    padding: 5px;
+}
+li{ 
+    list-style: none; 
+    padding: 5px;
+}
+img{ 
+    float: left; 
+    padding: 20px 100px 20px 200px;
+}
+#section2{ display: flex; 
+    flex-direction: 
+    column; align-items: center;
+}
+footer{ 
+    background-color: #24252a; 
+    position: relative; 
+    margin:auto;
+}
+#phone-number>ul{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    }
