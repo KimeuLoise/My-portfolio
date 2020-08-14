@@ -60,8 +60,7 @@ h1,h4,h5{
 #section1{ 
     display: flex; 
     flex-direction: column; 
-    align-items: 
-    center; padding: 50px;
+    align-items: center; padding: 50px;
 }
 #section1>h2,h4,p{ 
     padding: 5px;
@@ -77,12 +76,13 @@ img{
     float: left; 
     padding: 20px 100px 20px 200px;
 }
-#section2{ display: flex; 
+#section2{ 
+    display: flex; 
     flex-direction: 
     column; align-items: center;
 }
 footer{ 
-    background-color: #24252a; 
+    background-color: #e90840b9; 
     position: relative; 
     margin:auto;
 }
@@ -90,4 +90,7 @@ footer{
     display: flex; 
     flex-direction: column; 
     align-items: center;
+    text-decoration-color: orangered;
+    text-decoration: orangered;
+    text-shadow: black;
     }
