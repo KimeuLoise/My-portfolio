@@ -16,6 +16,7 @@
 .banner 
     h1{ font-size: 50px; 
     padding: 5px;
+    text-decoration-color: orangered;
 }
 .banner a{ 
     color: navy; 
@@ -69,6 +70,9 @@ h1,h4,h5{
 #body-section>h2{ 
     padding: 5px;
 }
+.h2{
+    text-decoration-color: orangered;
+}
 li{ 
     list-style: none; 
     padding: 5px;
@@ -95,3 +99,6 @@ footer{
     text-decoration: orangered;
     text-shadow: black;
     }
+    #phone-number>h2{
+        text-decoration: orangered;
+    } 
