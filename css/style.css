@@ -83,8 +83,7 @@ img{
 }
 #section2{ 
     display: flex; 
-    flex-direction: 
-    column; align-items: center;
+    flex-direction: column; align-items: center;
 }
 footer{ 
     background-color: #e90840b9; 
